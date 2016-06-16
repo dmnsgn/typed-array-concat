@@ -1,0 +1,30 @@
+{
+  "name": "concat-typed-array",
+  "version": "1.0.0",
+  "description": "Concatenate n typed arrays",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "repository": "https://github.com/dmnsgn/concat-typed-array",
+  "author": {
+    "name": "Damien Seguin",
+    "url": "http://dmnsgn.me"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "concat",
+    "util"
+  ],
+  "scripts": {
+    "build": "babel src --presets babel-preset-es2015 --out-dir lib",
+    "prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0"
+  }
+}
