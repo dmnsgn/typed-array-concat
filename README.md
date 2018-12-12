@@ -1,4 +1,4 @@
-# concat-typed-array [![Build Status](https://travis-ci.org/dmnsgn/concat-typed-array.svg?branch=master)](https://travis-ci.org/dmnsgn/concat-typed-array)
+# concat-typed-array [![Build Status](https://travis-ci.org/dmnsgn/concat-typed-array.svg?branch=master)](https://travis-ci.org/dmnsgn/concat-typed-array) [![Greenkeeper badge](https://badges.greenkeeper.io/dmnsgn/concat-typed-array.svg)](https://greenkeeper.io/)
 
 > Concatenate n typed arrays
 
