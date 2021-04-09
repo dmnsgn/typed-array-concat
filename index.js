@@ -7,7 +7,7 @@
  *
  * @alias module:concatTypedArray
  * @param {TypedArray} ResultConstructor Returned typed array constructor
- * @param {TypedArray[]} arrays Arrays to concatenate
+ * @param {...TypedArray} arrays Arrays to concatenate
  * @returns {TypedArray}
  */
 function concatTypedArray(ResultConstructor, ...arrays) {
