@@ -1,27 +1,34 @@
 {
   "name": "concat-typed-array",
   "version": "1.0.2",
-  "description": "Concatenate n typed arrays",
-  "main": "lib/index.js",
-  "license": "MIT",
-  "repository": "https://github.com/dmnsgn/concat-typed-array",
-  "author": {
-    "name": "Damien Seguin",
-    "url": "http://dmnsgn.me"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
+  "description": "Concatenate n typed arrays.",
   "keywords": [
     "concat",
+    "typed-arrays",
+    "arrays",
     "util"
   ],
-  "scripts": {
-    "build": "babel src --presets babel-preset-es2015 --out-dir lib",
-    "prepublish": "npm run build"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.10.1",
-    "babel-preset-es2015": "^6.9.0"
+  "homepage": "https://github.com/dmnsgn/concat-typed-array",
+  "bugs": "https://github.com/dmnsgn/concat-typed-array/issues",
+  "repository": "dmnsgn/concat-typed-array",
+  "funding": [
+    {
+      "type": "individual",
+      "url": "https://paypal.me/dmnsgn"
+    },
+    {
+      "type": "individual",
+      "url": "https://commerce.coinbase.com/checkout/56cbdf28-e323-48d8-9c98-7019e72c97f3"
+    }
+  ],
+  "license": "MIT",
+  "author": "Damien Seguin (https://github.com/dmnsgn)",
+  "sideEffects": false,
+  "type": "module",
+  "main": "index.js",
+  "types": "types/index.d.ts",
+  "engines": {
+    "node": ">=15.0.0",
+    "npm": ">=7.0.0"
   }
 }
