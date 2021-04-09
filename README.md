@@ -36,7 +36,22 @@ concatTypedArray(Uint8Array, Uint8Array.of(1, 2), Uint8Array.of(3, 4));
 
 <!-- api-start -->
 
-Auto-generated API content.
+<a name="module_concatTypedArray"></a>
+
+## concatTypedArray
+
+<a name="exp_module_concatTypedArray--concatTypedArray"></a>
+
+### concatTypedArray(ResultConstructor, ...arrays) ⇒ <code>TypedArray</code> ⏏
+
+Concatenate n typed arrays
+
+**Kind**: Exported function
+
+| Param             | Type                    | Description                      |
+| ----------------- | ----------------------- | -------------------------------- |
+| ResultConstructor | <code>TypedArray</code> | Returned typed array constructor |
+| ...arrays         | <code>TypedArray</code> | Arrays to concatenate            |
 
 <!-- api-end -->
 
