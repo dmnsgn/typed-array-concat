@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [2.1.0](https://github.com/dmnsgn/concat-typed-array/compare/v2.0.0...v2.1.0) (2021-09-10)
+
+
+### Features
+
+* add exports field to package.json ([434ac8b](https://github.com/dmnsgn/concat-typed-array/commit/434ac8b76552764729da8c20c2f6276269eb00ab))
+
+
+
 # 2.0.0 (2021-04-09)
 
 
