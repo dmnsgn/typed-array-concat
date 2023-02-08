@@ -1,5 +1,5 @@
 {
-  "name": "concat-typed-array",
+  "name": "typed-array-concat",
   "version": "2.1.0",
   "description": "Concatenate n typed arrays.",
   "keywords": [
@@ -8,9 +8,9 @@
     "arrays",
     "util"
   ],
-  "homepage": "https://github.com/dmnsgn/concat-typed-array",
-  "bugs": "https://github.com/dmnsgn/concat-typed-array/issues",
-  "repository": "dmnsgn/concat-typed-array",
+  "homepage": "https://github.com/dmnsgn/typed-array-concat",
+  "bugs": "https://github.com/dmnsgn/typed-array-concat/issues",
+  "repository": "dmnsgn/typed-array-concat",
   "funding": [
     {
       "type": "individual",

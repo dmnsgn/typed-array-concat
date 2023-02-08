@@ -1,16 +1,16 @@
 /**
- * @module concatTypedArray
+ * @module typedArrayConcat
  */
 
 /**
  * Concatenate n typed arrays
  *
- * @alias module:concatTypedArray
+ * @alias module:typedArrayConcat
  * @param {TypedArray} ResultConstructor Returned typed array constructor
  * @param {...TypedArray} arrays Arrays to concatenate
  * @returns {TypedArray}
  */
-function concatTypedArray(ResultConstructor, ...arrays) {
+function typedArrayConcat(ResultConstructor, ...arrays) {
   let totalLength = 0;
   for (const arr of arrays) {
     totalLength += arr.length;
@@ -24,4 +24,4 @@ function concatTypedArray(ResultConstructor, ...arrays) {
   return result;
 }
 
-export default concatTypedArray;
+export default typedArrayConcat;
