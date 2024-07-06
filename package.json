@@ -1,6 +1,6 @@
 {
   "name": "typed-array-concat",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Concatenate n typed arrays.",
   "keywords": [
     "concat",
@@ -10,7 +10,10 @@
   ],
   "homepage": "https://github.com/dmnsgn/typed-array-concat",
   "bugs": "https://github.com/dmnsgn/typed-array-concat/issues",
-  "repository": "dmnsgn/typed-array-concat",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmnsgn/typed-array-concat.git"
+  },
   "funding": [
     {
       "type": "individual",
